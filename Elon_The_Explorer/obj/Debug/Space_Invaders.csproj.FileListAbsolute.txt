@@ -1,0 +1,30 @@
+C:\Users\mnagy\Documents\Matfyz\Semester 2\Programovanie II\Semestral Project\Space_Invaders\Space_Invaders\bin\Debug\Space_Invaders.exe.config
+C:\Users\mnagy\Documents\Matfyz\Semester 2\Programovanie II\Semestral Project\Space_Invaders\Space_Invaders\bin\Debug\Space_Invaders.exe
+C:\Users\mnagy\Documents\Matfyz\Semester 2\Programovanie II\Semestral Project\Space_Invaders\Space_Invaders\bin\Debug\Space_Invaders.pdb
+C:\Users\mnagy\Documents\Matfyz\Semester 2\Programovanie II\Semestral Project\Space_Invaders\Space_Invaders\obj\Debug\Space_Invaders.csprojAssemblyReference.cache
+C:\Users\mnagy\Documents\Matfyz\Semester 2\Programovanie II\Semestral Project\Space_Invaders\Space_Invaders\obj\Debug\Space_Invaders.Form1.resources
+C:\Users\mnagy\Documents\Matfyz\Semester 2\Programovanie II\Semestral Project\Space_Invaders\Space_Invaders\obj\Debug\Space_Invaders.Properties.Resources.resources
+C:\Users\mnagy\Documents\Matfyz\Semester 2\Programovanie II\Semestral Project\Space_Invaders\Space_Invaders\obj\Debug\Space_Invaders.csproj.GenerateResource.cache
+C:\Users\mnagy\Documents\Matfyz\Semester 2\Programovanie II\Semestral Project\Space_Invaders\Space_Invaders\obj\Debug\Space_Invaders.csproj.CoreCompileInputs.cache
+C:\Users\mnagy\Documents\Matfyz\Semester 2\Programovanie II\Semestral Project\Space_Invaders\Space_Invaders\obj\Debug\Space_Invaders.exe
+C:\Users\mnagy\Documents\Matfyz\Semester 2\Programovanie II\Semestral Project\Space_Invaders\Space_Invaders\obj\Debug\Space_Invaders.pdb
+D:\Tugas Kuliah\PBO\Space-Invaders\Space_Invaders\bin\Debug\Space_Invaders.exe.config
+D:\Tugas Kuliah\PBO\Space-Invaders\Space_Invaders\bin\Debug\Space_Invaders.exe
+D:\Tugas Kuliah\PBO\Space-Invaders\Space_Invaders\bin\Debug\Space_Invaders.pdb
+D:\Tugas Kuliah\PBO\Space-Invaders\Space_Invaders\obj\Debug\Space_Invaders.csproj.AssemblyReference.cache
+D:\Tugas Kuliah\PBO\Space-Invaders\Space_Invaders\obj\Debug\Space_Invaders.Form1.resources
+D:\Tugas Kuliah\PBO\Space-Invaders\Space_Invaders\obj\Debug\Space_Invaders.Properties.Resources.resources
+D:\Tugas Kuliah\PBO\Space-Invaders\Space_Invaders\obj\Debug\Space_Invaders.csproj.GenerateResource.cache
+D:\Tugas Kuliah\PBO\Space-Invaders\Space_Invaders\obj\Debug\Space_Invaders.csproj.CoreCompileInputs.cache
+D:\Tugas Kuliah\PBO\Space-Invaders\Space_Invaders\obj\Debug\Space_Invaders.exe
+D:\Tugas Kuliah\PBO\Space-Invaders\Space_Invaders\obj\Debug\Space_Invaders.pdb
+C:\Users\nabiel\Desktop\project\csharp\Space-Invaders\Space_Invaders\bin\Debug\Space_Invaders.exe.config
+C:\Users\nabiel\Desktop\project\csharp\Space-Invaders\Space_Invaders\bin\Debug\Space_Invaders.exe
+C:\Users\nabiel\Desktop\project\csharp\Space-Invaders\Space_Invaders\bin\Debug\Space_Invaders.pdb
+C:\Users\nabiel\Desktop\project\csharp\Space-Invaders\Space_Invaders\obj\Debug\Space_Invaders.csproj.AssemblyReference.cache
+C:\Users\nabiel\Desktop\project\csharp\Space-Invaders\Space_Invaders\obj\Debug\Space_Invaders.Form1.resources
+C:\Users\nabiel\Desktop\project\csharp\Space-Invaders\Space_Invaders\obj\Debug\Space_Invaders.Properties.Resources.resources
+C:\Users\nabiel\Desktop\project\csharp\Space-Invaders\Space_Invaders\obj\Debug\Space_Invaders.csproj.GenerateResource.cache
+C:\Users\nabiel\Desktop\project\csharp\Space-Invaders\Space_Invaders\obj\Debug\Space_Invaders.csproj.CoreCompileInputs.cache
+C:\Users\nabiel\Desktop\project\csharp\Space-Invaders\Space_Invaders\obj\Debug\Space_Invaders.exe
+C:\Users\nabiel\Desktop\project\csharp\Space-Invaders\Space_Invaders\obj\Debug\Space_Invaders.pdb
