@@ -3,12 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\nabiel\\Desktop\\project\\csharp\\Elon_The_Explorer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3878F3F8-F187-4A8D-88DD-E2447C74EAEE}|Elon_The_Explorer\\Elon_The_Explorer.csproj|c:\\users\\nabiel\\desktop\\project\\csharp\\elon_the_explorer\\elon_the_explorer\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{3878F3F8-F187-4A8D-88DD-E2447C74EAEE}|Elon_The_Explorer\\Elon_The_Explorer.csproj|solutionrelative:elon_the_explorer\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{3878F3F8-F187-4A8D-88DD-E2447C74EAEE}|Elon_The_Explorer\\Elon_The_Explorer.csproj|c:\\users\\nabiel\\desktop\\project\\csharp\\elon_the_explorer\\elon_the_explorer\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3878F3F8-F187-4A8D-88DD-E2447C74EAEE}|Elon_The_Explorer\\Elon_The_Explorer.csproj|solutionrelative:elon_the_explorer\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nabiel\\Desktop\\project\\csharp\\Elon_The_Explorer\\Space_Invaders\\App.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Space_Invaders\\App.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{3878F3F8-F187-4A8D-88DD-E2447C74EAEE}|Elon_The_Explorer\\Elon_The_Explorer.csproj|c:\\users\\nabiel\\desktop\\project\\csharp\\elon_the_explorer\\elon_the_explorer\\gamemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3878F3F8-F187-4A8D-88DD-E2447C74EAEE}|Elon_The_Explorer\\Elon_The_Explorer.csproj|solutionrelative:elon_the_explorer\\gamemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3878F3F8-F187-4A8D-88DD-E2447C74EAEE}|Elon_The_Explorer\\Elon_The_Explorer.csproj|c:\\users\\nabiel\\desktop\\project\\csharp\\elon_the_explorer\\elon_the_explorer\\boss\\bossenemy2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3878F3F8-F187-4A8D-88DD-E2447C74EAEE}|Elon_The_Explorer\\Elon_The_Explorer.csproj|solutionrelative:elon_the_explorer\\boss\\bossenemy2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3878F3F8-F187-4A8D-88DD-E2447C74EAEE}|Elon_The_Explorer\\Elon_The_Explorer.csproj|c:\\users\\nabiel\\desktop\\project\\csharp\\elon_the_explorer\\elon_the_explorer\\shot\\basicshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3878F3F8-F187-4A8D-88DD-E2447C74EAEE}|Elon_The_Explorer\\Elon_The_Explorer.csproj|solutionrelative:elon_the_explorer\\shot\\basicshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3878F3F8-F187-4A8D-88DD-E2447C74EAEE}|Elon_The_Explorer\\Elon_The_Explorer.csproj|c:\\users\\nabiel\\desktop\\project\\csharp\\elon_the_explorer\\elon_the_explorer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3878F3F8-F187-4A8D-88DD-E2447C74EAEE}|Elon_The_Explorer\\Elon_The_Explorer.csproj|solutionrelative:elon_the_explorer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3878F3F8-F187-4A8D-88DD-E2447C74EAEE}|Elon_The_Explorer\\Elon_The_Explorer.csproj|c:\\users\\nabiel\\desktop\\project\\csharp\\elon_the_explorer\\elon_the_explorer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3878F3F8-F187-4A8D-88DD-E2447C74EAEE}|Elon_The_Explorer\\Elon_The_Explorer.csproj|solutionrelative:elon_the_explorer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3878F3F8-F187-4A8D-88DD-E2447C74EAEE}|Elon_The_Explorer\\Elon_The_Explorer.csproj|c:\\users\\nabiel\\desktop\\project\\csharp\\elon_the_explorer\\elon_the_explorer\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3878F3F8-F187-4A8D-88DD-E2447C74EAEE}|Elon_The_Explorer\\Elon_The_Explorer.csproj|solutionrelative:elon_the_explorer\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3878F3F8-F187-4A8D-88DD-E2447C74EAEE}|Elon_The_Explorer\\Elon_The_Explorer.csproj|c:\\users\\nabiel\\desktop\\project\\csharp\\elon_the_explorer\\elon_the_explorer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3878F3F8-F187-4A8D-88DD-E2447C74EAEE}|Elon_The_Explorer\\Elon_The_Explorer.csproj|solutionrelative:elon_the_explorer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3878F3F8-F187-4A8D-88DD-E2447C74EAEE}|Elon_The_Explorer\\Elon_The_Explorer.csproj|c:\\users\\nabiel\\desktop\\project\\csharp\\elon_the_explorer\\elon_the_explorer\\shot\\ishot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3878F3F8-F187-4A8D-88DD-E2447C74EAEE}|Elon_The_Explorer\\Elon_The_Explorer.csproj|solutionrelative:elon_the_explorer\\shot\\ishot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,31 +46,123 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\nabiel\\Desktop\\project\\csharp\\Elon_The_Explorer\\Elon_The_Explorer\\App.config",
-              "RelativeDocumentMoniker": "Elon_The_Explorer\\App.config",
-              "ToolTip": "C:\\Users\\nabiel\\Desktop\\project\\csharp\\Elon_The_Explorer\\Elon_The_Explorer\\App.config",
-              "RelativeToolTip": "Elon_The_Explorer\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-11-18T09:19:14.129Z",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\nabiel\\Desktop\\project\\csharp\\Elon_The_Explorer\\Elon_The_Explorer\\Form1.cs",
+              "RelativeDocumentMoniker": "Elon_The_Explorer\\Form1.cs",
+              "ToolTip": "C:\\Users\\nabiel\\Desktop\\project\\csharp\\Elon_The_Explorer\\Elon_The_Explorer\\Form1.cs",
+              "RelativeToolTip": "Elon_The_Explorer\\Form1.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAANYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T12:03:21.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\nabiel\\Desktop\\project\\csharp\\Elon_The_Explorer\\Elon_The_Explorer\\Form1.cs",
+              "RelativeDocumentMoniker": "Elon_The_Explorer\\Form1.cs",
+              "ToolTip": "C:\\Users\\nabiel\\Desktop\\project\\csharp\\Elon_The_Explorer\\Elon_The_Explorer\\Form1.cs [Design]",
+              "RelativeToolTip": "Elon_The_Explorer\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T12:03:15.963Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Enums.cs",
+              "DocumentMoniker": "C:\\Users\\nabiel\\Desktop\\project\\csharp\\Elon_The_Explorer\\Elon_The_Explorer\\Enums.cs",
+              "RelativeDocumentMoniker": "Elon_The_Explorer\\Enums.cs",
+              "ToolTip": "C:\\Users\\nabiel\\Desktop\\project\\csharp\\Elon_The_Explorer\\Elon_The_Explorer\\Enums.cs",
+              "RelativeToolTip": "Elon_The_Explorer\\Enums.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T12:03:12.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nabiel\\Desktop\\project\\csharp\\Elon_The_Explorer\\Elon_The_Explorer\\Program.cs",
+              "RelativeDocumentMoniker": "Elon_The_Explorer\\Program.cs",
+              "ToolTip": "C:\\Users\\nabiel\\Desktop\\project\\csharp\\Elon_The_Explorer\\Elon_The_Explorer\\Program.cs",
+              "RelativeToolTip": "Elon_The_Explorer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T12:03:07.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BossEnemy2.cs",
+              "DocumentMoniker": "C:\\Users\\nabiel\\Desktop\\project\\csharp\\Elon_The_Explorer\\Elon_The_Explorer\\Boss\\BossEnemy2.cs",
+              "RelativeDocumentMoniker": "Elon_The_Explorer\\Boss\\BossEnemy2.cs",
+              "ToolTip": "C:\\Users\\nabiel\\Desktop\\project\\csharp\\Elon_The_Explorer\\Elon_The_Explorer\\Boss\\BossEnemy2.cs",
+              "RelativeToolTip": "Elon_The_Explorer\\Boss\\BossEnemy2.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAQwH8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T11:55:52.282Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\nabiel\\Desktop\\project\\csharp\\Elon_The_Explorer\\Space_Invaders\\App.config",
-              "RelativeDocumentMoniker": "Space_Invaders\\App.config",
-              "ToolTip": "C:\\Users\\nabiel\\Desktop\\project\\csharp\\Elon_The_Explorer\\Space_Invaders\\App.config",
-              "RelativeToolTip": "Space_Invaders\\App.config",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-11-18T09:10:10.158Z"
+              "Title": "GameMap.cs",
+              "DocumentMoniker": "C:\\Users\\nabiel\\Desktop\\project\\csharp\\Elon_The_Explorer\\Elon_The_Explorer\\GameMap.cs",
+              "RelativeDocumentMoniker": "Elon_The_Explorer\\GameMap.cs",
+              "ToolTip": "C:\\Users\\nabiel\\Desktop\\project\\csharp\\Elon_The_Explorer\\Elon_The_Explorer\\GameMap.cs",
+              "RelativeToolTip": "Elon_The_Explorer\\GameMap.cs",
+              "ViewState": "AgIAAOEBAAAAAAAAAAAAAOEBAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T11:33:42.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IShot.cs",
+              "DocumentMoniker": "C:\\Users\\nabiel\\Desktop\\project\\csharp\\Elon_The_Explorer\\Elon_The_Explorer\\Shot\\IShot.cs",
+              "RelativeDocumentMoniker": "Elon_The_Explorer\\Shot\\IShot.cs",
+              "ToolTip": "C:\\Users\\nabiel\\Desktop\\project\\csharp\\Elon_The_Explorer\\Elon_The_Explorer\\Shot\\IShot.cs",
+              "RelativeToolTip": "Elon_The_Explorer\\Shot\\IShot.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAYwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T10:43:42.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BasicShot.cs",
+              "DocumentMoniker": "C:\\Users\\nabiel\\Desktop\\project\\csharp\\Elon_The_Explorer\\Elon_The_Explorer\\Shot\\BasicShot.cs",
+              "RelativeDocumentMoniker": "Elon_The_Explorer\\Shot\\BasicShot.cs",
+              "ToolTip": "C:\\Users\\nabiel\\Desktop\\project\\csharp\\Elon_The_Explorer\\Elon_The_Explorer\\Shot\\BasicShot.cs",
+              "RelativeToolTip": "Elon_The_Explorer\\Shot\\BasicShot.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAzwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T10:23:37.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\nabiel\\Desktop\\project\\csharp\\Elon_The_Explorer\\Elon_The_Explorer\\Player\\Player.cs",
+              "RelativeDocumentMoniker": "Elon_The_Explorer\\Player\\Player.cs",
+              "ToolTip": "C:\\Users\\nabiel\\Desktop\\project\\csharp\\Elon_The_Explorer\\Elon_The_Explorer\\Player\\Player.cs",
+              "RelativeToolTip": "Elon_The_Explorer\\Player\\Player.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAswBoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T10:13:55.721Z",
+              "EditorCaption": ""
             }
           ]
         }

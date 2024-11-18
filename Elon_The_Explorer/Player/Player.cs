@@ -19,9 +19,12 @@ namespace Elon_The_Explorer
         int shotSpeed;
         public int score { get; private set; }
         public int counter { get; private set; }
-        BasicShot shot;
         Rectangle rect;
         Stopwatch stopwatch;
+
+        private List<IShot> shots;
+        private Stopwatch shotCooldown; // Tambahkan stopwatch untuk cooldown
+        private const int COOLDOWN_MS = 250; // Cooldown 250ms antara shots
 
         MovementDirection movement;
         Keys shootKeyCode1 = Keys.J, shootKeyCode2 = Keys.Space;
@@ -33,7 +36,7 @@ namespace Elon_The_Explorer
         {
             rect = new Rectangle(x, y, w, h);
             movement = MovementDirection.dontMove;
-            shot = null;
+            shots = new List<IShot>();
             alive = true;
             show = true;
             this.shotSpeed = shotSpeed;
@@ -41,15 +44,19 @@ namespace Elon_The_Explorer
             counter = 0;
             stopwatch = new Stopwatch();
             stopwatch.Reset();
+            shotCooldown = new Stopwatch(); // Initialize cooldown timer
         }
+
         public Rectangle GetRectangle()
         {
             return rect;
         }
+
         public void SetLives(int number)
         {
             lives = (byte)number;
         }
+
         public bool Show()
         {
             if (stopwatch.IsRunning && stopwatch.ElapsedMilliseconds < 2000)
@@ -76,14 +83,19 @@ namespace Elon_The_Explorer
             point.Y = rect.Top + (rect.Height / 2);
             return point;
         }
-        public IShot GetShot()
+        public List<IShot> GetShots()
         {
-            return shot;
+            return shots;
         }
-        public void DestroyShot()
+
+        public void DestroyShot(int index)
         {
-            shot = null;
+            if (index >= 0 && index < shots.Count)
+            {
+                shots.RemoveAt(index);
+            }
         }
+
         public void RaiseScore(int i)
         {
             score += i;
@@ -101,7 +113,7 @@ namespace Elon_The_Explorer
         {
             return movement;
         }
-        public void resolveKey(Keys keyCode) //needed for resolving non-letter keys(for example Space)
+        public void resolveKey(Keys keyCode)
         {
             switch (keyCode)
             {
@@ -117,13 +129,16 @@ namespace Elon_The_Explorer
                     break;
                 case Keys.J:
                 case Keys.Space:
-                    if (shot == null)
+                    // Cek cooldown sebelum menembak
+                    if (!shotCooldown.IsRunning || shotCooldown.ElapsedMilliseconds > COOLDOWN_MS)
                     {
-                        shot = new BasicShot(rect.Left + rect.Width / 2, rect.Top, 0, 15);
+                        shots.Add(new BasicShot(rect.Left + rect.Width / 2, rect.Top, 0, 15));
+                        shotCooldown.Restart(); // Reset dan start timer
                     }
                     break;
             }
         }
+
         public void stopMoving(Keys keyCode)
         {
             switch (keyCode)
@@ -157,6 +172,7 @@ namespace Elon_The_Explorer
                     break;
             }
         }
+
         public void RemoveLife()
         {
             if (!stopwatch.IsRunning)
@@ -169,6 +185,7 @@ namespace Elon_The_Explorer
                 }
             }
         }
+
         public int GetLives()
         {
             return lives;

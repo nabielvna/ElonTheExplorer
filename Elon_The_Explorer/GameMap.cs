@@ -273,9 +273,10 @@ namespace Elon_The_Explorer
                 ShowShot(entry.Value);
             }
 
-            if (player.GetShot() != null)
+            // Modifikasi untuk render semua shots player
+            foreach (var shot in player.GetShots())
             {
-                ShowShot(player.GetShot());
+                ShowShot(shot);
             }
 
             ShowScore();
@@ -283,11 +284,11 @@ namespace Elon_The_Explorer
             {
                 ShowPlayer();
             }
-            //barriers
             ShowBarriers();
             ShowLives();
             ShowStage();
         }
+
         public void Update()
         {
             Rectangle playerRect;
@@ -351,10 +352,11 @@ namespace Elon_The_Explorer
             }
 
             //move shots(player)
-            IShot tempShotPlayer = player.GetShot();
-            if (tempShotPlayer != null)
+            var playerShots = player.GetShots();
+            for (int i = playerShots.Count - 1; i >= 0; i--)
             {
-                tempShotPlayer.Update();
+                var shot = playerShots[i];
+                shot.Update();
             }
 
             //move shots(enemies)
@@ -409,10 +411,11 @@ namespace Elon_The_Explorer
 
             /* ########## BOUNDS AND HITBOXS' CHECK ########### */
 
-            //player's shot
-            if (tempShotPlayer != null)
+            //player's shots collision check
+            for (int shotIndex = playerShots.Count - 1; shotIndex >= 0; shotIndex--)
             {
-                if (boss == null)
+                var shot = playerShots[shotIndex];
+                if (boss == null) // Normal enemies stage
                 {
                     bool breakLoop = false;
                     for (int i = 0; i < enemies.Count; i++)
@@ -420,13 +423,13 @@ namespace Elon_The_Explorer
                         for (int k = 0; k < enemies[i].Count; k++)
                         {
                             Rectangle rect = enemies[i][k].GetRect();
-                            Point shotPoint = tempShotPlayer.GetPoint();
+                            Point shotPoint = shot.GetPoint();
                             bool vertical = shotPoint.Y < rect.Bottom && shotPoint.Y > rect.Top;
                             bool horizontal = shotPoint.X < rect.Right && shotPoint.X > rect.Left;
                             if (vertical && horizontal)
                             {
                                 //remove shot
-                                player.DestroyShot();
+                                player.DestroyShot(shotIndex);
                                 player.RaiseScore(20);
                                 //destroy enemy
                                 enemies[i].RemoveAt(k);
@@ -447,21 +450,33 @@ namespace Elon_The_Explorer
                         }
                     }
                 }
-                else // boss exists = boss stage
+                else // Boss stage
                 {
                     Rectangle bossRect = boss.GetRect();
-                    Point shotPoint = player.GetShot().GetPoint();
+                    Point shotPoint = shot.GetPoint();
                     bool vertical = shotPoint.Y < bossRect.Bottom && shotPoint.Y > bossRect.Top;
                     bool horizontal = shotPoint.X < bossRect.Right && shotPoint.X > bossRect.Left;
+
+                    // Debug print untuk cek kalkulasi collision
+                    Console.WriteLine($"Shot pos: {shotPoint.X}, {shotPoint.Y}");
+                    Console.WriteLine($"Boss rect: Left={bossRect.Left}, Right={bossRect.Right}, Top={bossRect.Top}, Bottom={bossRect.Bottom}");
+                    Console.WriteLine($"Collision check: vertical={vertical}, horizontal={horizontal}");
+
                     if (vertical && horizontal)
                     {
+                        // Tambah debug print
+                        Console.WriteLine("Hit boss!");
+
                         //remove shot
-                        player.DestroyShot();
+                        player.DestroyShot(shotIndex);
                         //remove life
                         boss.RemoveLife();
+                        Console.WriteLine($"Boss life remaining: {boss.GetLifes()}");
+
                         if (boss.GetLifes() == 0)
                         {
                             player.RaiseScore(500);
+                            Console.WriteLine("Boss defeated!");
                         }
                     }
                 }
@@ -495,11 +510,11 @@ namespace Elon_The_Explorer
                 enemiesShots.Remove(keysToRemove[i]);
             }
 
-            //player's shot colliding with barriers
-            IShot playerShot = player.GetShot();
-            if (playerShot != null)
+            //player's shots colliding with barriers
+            for (int shotIndex = playerShots.Count - 1; shotIndex >= 0; shotIndex--)
             {
-                Point tempPoint = playerShot.GetPoint();
+                var shot = playerShots[shotIndex];
+                Point tempPoint = shot.GetPoint();
                 int? barIndex = null;
                 for (int i = 0; i < barriers.Count; i++)
                 {
@@ -509,7 +524,7 @@ namespace Elon_The_Explorer
                     if (vertical && horizontal)
                     {
                         barIndex = i;
-                        player.DestroyShot();
+                        player.DestroyShot(shotIndex);
                         break;
                     }
                 }
@@ -556,13 +571,14 @@ namespace Elon_The_Explorer
                 enemiesShots.Remove(keysToRemove[i]);
             }
 
-            //shot out of bounds(player)
-            if (tempShotPlayer != null)
+            //check shots out of bounds (player)
+            for (int shotIndex = playerShots.Count - 1; shotIndex >= 0; shotIndex--)
             {
-                Point shotPoint = tempShotPlayer.GetPoint();
+                var shot = playerShots[shotIndex];
+                Point shotPoint = shot.GetPoint();
                 if (shotPoint.Y < 0)
                 {
-                    player.DestroyShot();
+                    player.DestroyShot(shotIndex);
                 }
             }
 
