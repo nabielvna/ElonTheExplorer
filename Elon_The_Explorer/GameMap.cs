@@ -55,6 +55,7 @@ namespace Elon_The_Explorer
             {
                 if (enemies != null && enemies.Count > 0)
                 {
+                    
                     return true;
                 }
                 else
@@ -477,6 +478,8 @@ namespace Elon_The_Explorer
                         {
                             player.RaiseScore(500);
                             Console.WriteLine("Boss defeated!");
+                            playerShots.Clear();
+                            enemiesShots.Clear();
                         }
                     }
                 }

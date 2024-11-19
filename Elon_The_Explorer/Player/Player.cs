@@ -16,6 +16,7 @@ namespace Elon_The_Explorer
         byte lives;
         bool alive, show;
         bool leftKeyDown = false, rightKeyDown = false;
+        bool isShootKeyDown = false; // Track shoot key state
         int shotSpeed;
         public int score { get; private set; }
         public int counter { get; private set; }
@@ -23,15 +24,14 @@ namespace Elon_The_Explorer
         Stopwatch stopwatch;
 
         private List<IShot> shots;
-        private Stopwatch shotCooldown; // Tambahkan stopwatch untuk cooldown
-        private const int COOLDOWN_MS = 250; // Cooldown 250ms antara shots
+        private Stopwatch shotCooldown;
+        private const int COOLDOWN_MS = 250;
 
         MovementDirection movement;
         Keys shootKeyCode1 = Keys.J, shootKeyCode2 = Keys.Space;
         Keys leftKeyCode1 = Keys.A, leftKeyCode2 = Keys.Left;
         Keys rightKeyCode1 = Keys.D, rightKeyCode2 = Keys.Right;
 
-        //x,y are in the left-upper corner
         public Player(int x, int y, int w, int h, int shotSpeed)
         {
             rect = new Rectangle(x, y, w, h);
@@ -44,7 +44,7 @@ namespace Elon_The_Explorer
             counter = 0;
             stopwatch = new Stopwatch();
             stopwatch.Reset();
-            shotCooldown = new Stopwatch(); // Initialize cooldown timer
+            shotCooldown = new Stopwatch();
         }
 
         public Rectangle GetRectangle()
@@ -76,6 +76,7 @@ namespace Elon_The_Explorer
             }
             return show;
         }
+
         public Point GetPoint()
         {
             Point point = new Point();
@@ -83,6 +84,7 @@ namespace Elon_The_Explorer
             point.Y = rect.Top + (rect.Height / 2);
             return point;
         }
+
         public List<IShot> GetShots()
         {
             return shots;
@@ -100,19 +102,23 @@ namespace Elon_The_Explorer
         {
             score += i;
         }
+
         public bool IsAlive()
         {
             return alive;
         }
+
         public void Move(int x, int y = 0)
         {
             rect.X += x;
             rect.Y += y;
         }
+
         public MovementDirection GetMovement()
         {
             return movement;
         }
+
         public void resolveKey(Keys keyCode)
         {
             switch (keyCode)
@@ -129,11 +135,12 @@ namespace Elon_The_Explorer
                     break;
                 case Keys.J:
                 case Keys.Space:
-                    // Cek cooldown sebelum menembak
-                    if (!shotCooldown.IsRunning || shotCooldown.ElapsedMilliseconds > COOLDOWN_MS)
+                    // Only shoot if the key wasn't already down and cooldown has elapsed
+                    if (!isShootKeyDown && (!shotCooldown.IsRunning || shotCooldown.ElapsedMilliseconds > COOLDOWN_MS))
                     {
                         shots.Add(new BasicShot(rect.Left + rect.Width / 2, rect.Top, 0, 15));
-                        shotCooldown.Restart(); // Reset dan start timer
+                        shotCooldown.Restart();
+                        isShootKeyDown = true;
                     }
                     break;
             }
@@ -167,8 +174,9 @@ namespace Elon_The_Explorer
                         movement = MovementDirection.dontMove;
                     }
                     break;
-                default:
-                    //not a key for moving
+                case Keys.J:
+                case Keys.Space:
+                    isShootKeyDown = false; // Reset shoot key state when released
                     break;
             }
         }
