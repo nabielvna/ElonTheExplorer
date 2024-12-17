@@ -1,0 +1,30 @@
+C:\Users\nabiel\Desktop\project\csharp\Elon-The-Explorer\Space_Invaders\obj\Debug\Elon_The_Explorer.csproj.AssemblyReference.cache
+C:\Users\nabiel\Desktop\project\csharp\Elon-The-Explorer\Space_Invaders\obj\Debug\Space_Invaders.Properties.Resources.resources
+C:\Users\nabiel\Desktop\project\csharp\Elon-The-Explorer\Space_Invaders\obj\Debug\Elon_The_Explorer.csproj.GenerateResource.cache
+C:\Users\nabiel\Desktop\project\csharp\Elon-The-Explorer\Space_Invaders\obj\Debug\Elon_The_Explorer.csproj.CoreCompileInputs.cache
+C:\Users\nabiel\Desktop\project\csharp\Elon-The-Explorer\Space_Invaders\obj\Debug\Space_Invaders.exe
+C:\Users\nabiel\Desktop\project\csharp\Elon-The-Explorer\Space_Invaders\obj\Debug\Space_Invaders.pdb
+C:\Users\nabiel\Desktop\project\csharp\Elon-The-Explorer\Space_Invaders\bin\Debug\Space_Invaders.exe.config
+C:\Users\nabiel\Desktop\project\csharp\Elon-The-Explorer\Space_Invaders\bin\Debug\Space_Invaders.exe
+C:\Users\nabiel\Desktop\project\csharp\Elon-The-Explorer\Space_Invaders\bin\Debug\Space_Invaders.pdb
+C:\Users\nabiel\Desktop\project\csharp\Elon-The-Explorer\Space_Invaders\obj\Debug\Elon_The_Explorer.Form1.resources
+C:\Users\nabiel\Desktop\project\csharp\Elon_The_Explorer\Elon_The_Explorer\bin\Debug\Elon_The_Explorer.exe.config
+C:\Users\nabiel\Desktop\project\csharp\Elon_The_Explorer\Elon_The_Explorer\bin\Debug\Elon_The_Explorer.exe
+C:\Users\nabiel\Desktop\project\csharp\Elon_The_Explorer\Elon_The_Explorer\bin\Debug\Elon_The_Explorer.pdb
+C:\Users\nabiel\Desktop\project\csharp\Elon_The_Explorer\Elon_The_Explorer\obj\Debug\Elon_The_Explorer.csproj.AssemblyReference.cache
+C:\Users\nabiel\Desktop\project\csharp\Elon_The_Explorer\Elon_The_Explorer\obj\Debug\Elon_The_Explorer.Form1.resources
+C:\Users\nabiel\Desktop\project\csharp\Elon_The_Explorer\Elon_The_Explorer\obj\Debug\Elon_The_Explorer.Properties.Resources.resources
+C:\Users\nabiel\Desktop\project\csharp\Elon_The_Explorer\Elon_The_Explorer\obj\Debug\Elon_The_Explorer.csproj.GenerateResource.cache
+C:\Users\nabiel\Desktop\project\csharp\Elon_The_Explorer\Elon_The_Explorer\obj\Debug\Elon_The_Explorer.csproj.CoreCompileInputs.cache
+C:\Users\nabiel\Desktop\project\csharp\Elon_The_Explorer\Elon_The_Explorer\obj\Debug\Elon_The_Explorer.exe
+C:\Users\nabiel\Desktop\project\csharp\Elon_The_Explorer\Elon_The_Explorer\obj\Debug\Elon_The_Explorer.pdb
+D:\Tugas Kuliah\PBO\ElonTheExplorer\Elon_The_Explorer\bin\Debug\Elon_The_Explorer.exe.config
+D:\Tugas Kuliah\PBO\ElonTheExplorer\Elon_The_Explorer\bin\Debug\Elon_The_Explorer.exe
+D:\Tugas Kuliah\PBO\ElonTheExplorer\Elon_The_Explorer\bin\Debug\Elon_The_Explorer.pdb
+D:\Tugas Kuliah\PBO\ElonTheExplorer\Elon_The_Explorer\obj\Debug\Elon_The_Explorer.csproj.AssemblyReference.cache
+D:\Tugas Kuliah\PBO\ElonTheExplorer\Elon_The_Explorer\obj\Debug\Elon_The_Explorer.Form1.resources
+D:\Tugas Kuliah\PBO\ElonTheExplorer\Elon_The_Explorer\obj\Debug\Elon_The_Explorer.Properties.Resources.resources
+D:\Tugas Kuliah\PBO\ElonTheExplorer\Elon_The_Explorer\obj\Debug\Elon_The_Explorer.csproj.GenerateResource.cache
+D:\Tugas Kuliah\PBO\ElonTheExplorer\Elon_The_Explorer\obj\Debug\Elon_The_Explorer.csproj.CoreCompileInputs.cache
+D:\Tugas Kuliah\PBO\ElonTheExplorer\Elon_The_Explorer\obj\Debug\Elon_The_Explorer.exe
+D:\Tugas Kuliah\PBO\ElonTheExplorer\Elon_The_Explorer\obj\Debug\Elon_The_Explorer.pdb
